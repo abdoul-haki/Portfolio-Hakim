@@ -757,3 +757,33 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+
+/* En-tête du projet (titre + badge) */
+.project-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Badge "en cours de développement" */
+.badge {
+    background-color: var(--secondary-light);
+    color: white;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    box-shadow: var(--shadow);
+}
+
+/* Boutons des liens projets */
+.project-links .btn {
+    margin-right: 8px;
+    margin-top: 8px;
+}
